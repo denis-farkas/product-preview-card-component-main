@@ -1,0 +1,84 @@
+body {
+  background-image: url(design/desktop-design.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 450px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+  border: 1px solid red;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 34px 34px;
+  width: 280px;
+}
+
+.sub_title {
+  font-size: small;
+  letter-spacing: 0.3em;
+}
+
+.title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: red;
+  margin-right: 60px;
+  line-height: 0.95em;
+  margin: 0em 0;
+}
+
+.description {
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  border: 1px solid hsl(158, 36%, 37%);
+  border-radius: 10px;
+  height: 45px;
+  vertical-align: middle;
+}
+
+.add {
+  font-size: 14px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

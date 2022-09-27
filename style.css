@@ -1,0 +1,103 @@
+body {
+  background-image: url(design/desktop-design.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article {
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 600px;
+  height: 450px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+  border: 1px solid red;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 34px 34px;
+  width: 280px;
+}
+
+.sub_title {
+  font-size: small;
+  letter-spacing: 0.3em;
+}
+
+.title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: red;
+  margin-right: 60px;
+  line-height: 0.95em;
+  margin: 0em 0;
+}
+
+.description {
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3c8067;
+  border: 1px solid #3c8067;
+  border-radius: 10px;
+  height: 45px;
+  vertical-align: middle;
+}
+
+.add {
+  font-size: 14px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
