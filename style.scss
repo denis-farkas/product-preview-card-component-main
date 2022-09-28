@@ -1,9 +1,5 @@
 body {
-  background-image: url(design/desktop-design.jpg);
-  background-repeat: no-repeat;
-  height: 90vh;
-  width: 100%;
-  background-position: center;
+  background-color: hsl(30, 38%, 92%);
 }
 
 .container {
@@ -18,60 +14,106 @@ article {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
-  height: 450px;
-  border: 1px solid red;
+  width: 37.5rem;
+  height: 28.125rem;
   border-radius: 10px;
+  background-color: #fff;
 }
 
-img {
-  width: 300px;
-  height: 450px;
-  border: 1px solid red;
+.image {
+  width: 18.75rem;
+  height: 28.125rem;
   border-radius: 10px 0px 0px 10px;
+  background-image: url(./images/image-product-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .infos {
   display: flex;
-  flex-wrap: wrap;
-  padding: 34px 34px;
-  width: 280px;
+  flex-direction: column;
+  height: 28.125rem;
+  width: 17.5rem;
 }
 
 .sub_title {
   font-size: small;
   letter-spacing: 0.3em;
+  padding-top: 1.25rem;
+  padding-left: 1.875rem;
+  color: hsl(228, 12%, 48%);
 }
 
 .title {
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  color: red;
-  margin-right: 60px;
+  color: black;
+  width: 12.5rem;
   line-height: 0.95em;
-  margin: 0em 0;
+  padding-left: 1.875rem;
+  padding-top: 0.594rem;
 }
 
 .description {
-  font-size: 14px;
-  margin-right: 50px;
+  font-size: 0.875rem;
+  padding-left: 1.875rem;
+  padding-top: 0.875rem;
+  line-height: 1.65em;
+  padding-right: 0.625rem;
+  color: hsl(228, 12%, 48%);
 }
 
+.price {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 3.75rem;
+  padding-left: 1.875rem;
+}
+
+.bold_price {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.little_price {
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  cursor: pointer;
+}
 .buy {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: hsl(158, 36%, 37%);
   border: 1px solid hsl(158, 36%, 37%);
-  border-radius: 10px;
-  height: 45px;
+  border-radius: 0.5rem;
+  height: 3rem;
   vertical-align: middle;
+  width: 84%;
+  margin-left: 1.875rem;
+  margin-top: 0.813rem;
+}
+
+.buy:hover,
+.buy:focus {
+  background-color: hsl(158, 36%, 16%);
+  border: 1px solid hsl(158, 36%, 16%);
 }
 
 .add {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 .attribution {

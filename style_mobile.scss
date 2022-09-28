@@ -1,0 +1,63 @@
+@media (max-width: 712px) {
+  article {
+    height: 80vh;
+    max-width: 340px;
+    background-color: #fff;
+    margin-top: 0.625rem;
+  }
+
+  .container {
+    align-items: top;
+  }
+
+  .image {
+    width: 100%;
+    height: 14.93rem;
+    border-radius: 10px 10px 0 0;
+    background-image: url(./images/image-product-mobile.jpg);
+  }
+
+  .infos {
+    margin-top: 0.625rem;
+    height: 23.75rem;
+    width: 96%;
+  }
+
+  .sub_title {
+    padding-top: 2px;
+    padding-left: 1.563rem;
+  }
+
+  .title {
+    width: 96%;
+    padding-top: 2px;
+    padding-left: 1.531rem;
+  }
+
+  .description {
+    padding-top: 0.25rem;
+    padding-left: 1.531rem;
+    padding-right: 15px;
+  }
+
+  .price {
+    padding-left: 1.531rem;
+    height: 3.375rem;
+  }
+
+  .buy {
+    width: 89.5%;
+    margin-left: 1.531rem;
+    margin-top: 0.438rem;
+  }
+
+  footer {
+    margin-top: 0.938rem;
+  }
+}
+
+@media (max-width: 320px) {
+  footer {
+    display: none;
+  }
+}
